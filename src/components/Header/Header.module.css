@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(215, 98, 69);
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  position: relative;
+  top: -235px;
+}
+
+.h1 {
+  color: rgb(237, 230, 230);
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header img {
+  width: 40px;
+  height: 40px;
+}
+
+.dropmenu {
+  height: 60px;
+  background-color: rgb(215, 98, 69);
+  height: 235px;
+  position: relative;
+  top: -235px;
+}
+.open {
+  transform: translateY(295px);
+  transition: all .4s;
+}
+.close {
+  transform: translateY(-290px);
+  transition: all .8s;
+}
