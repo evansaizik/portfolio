@@ -1,0 +1,10 @@
+.name {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.name::after {
+  content: ' isaiah';
+  color: rgb(215, 98, 69);
+}
