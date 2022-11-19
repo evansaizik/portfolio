@@ -21,6 +21,10 @@
   height: 40px;
 }
 
+.profilepix {
+  display: none;
+}
+
 .dropmenu {
   height: 60px;
   background-color: rgb(215, 98, 69);
@@ -35,4 +39,30 @@
 .close {
   transform: translateY(-290px);
   transition: all .8s;
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    display: none;
+  }
+
+  .profilepix {
+    margin: 20px auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border: 1px double rgb(239, 235, 230);
+    border-radius: 150px;
+  }
+
+  .dropmenu {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    height: 100vh;
+    top: 290px;
+    text-align: center;
+  }
 }
