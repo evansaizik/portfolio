@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   padding: 7px 20px;
-  position: relative;
-  top: -235px;
+  position: fixed;
+  top: 0px;
 }
 
 .h1 {
@@ -29,8 +29,9 @@
   height: 60px;
   background-color: rgb(215, 98, 69);
   height: 235px;
-  position: relative;
+  position: fixed;
   top: -235px;
+  width: 100%;
 }
 .open {
   transform: translateY(295px);
@@ -56,13 +57,13 @@
   }
 
   .dropmenu {
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20%;
+    width: 23%;
     height: 100vh;
     top: 290px;
     text-align: center;
+    /* position: fixed; */
   }
 }

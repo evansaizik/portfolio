@@ -1,13 +1,16 @@
 import React from "react";
 import About from "./components/About/About";
 import Header from "./components/Header/Header";
+import style from './App.module.css';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <About />
-    </div>
+      <div className={style.page}>
+        <About />
+      </div>
+    </>
   );
 }
 
