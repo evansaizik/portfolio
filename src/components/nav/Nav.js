@@ -2,13 +2,17 @@ import React from "react";
 import nav from './Nav.module.css';
 
 const Nav = props => {
-  return <>
-    <a href="/about" className={nav.link}>ABOUT</a>
-    <a href="/education" className={nav.link}>EDUCATION</a>
-    <a href="/skills" className={nav.link}>SKILLS</a>
-    <a href="/experience" className={nav.link}>EXPERIENCE</a>
-    <a href="/projects" className={nav.link}>PROJECTS</a>
-  </>
+  const getId = (event) => {
+    props.id = event.target.id;
+  };
+
+  return <div onClick={getId}>
+    <p id='about' className={nav.link}>ABOUT</p>
+    <p id='education' className={nav.link}>EDUCATION</p>
+    <p id="skills" className={nav.link}>SKILLS</p>
+    <p id="experience" className={nav.link}>EXPERIENCE</p>
+    <p id="projects" className={nav.link}>PROJECTS</p>
+  </div>
 };
 
 export default Nav;

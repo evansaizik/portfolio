@@ -1,0 +1,47 @@
+.container {
+  padding: 0 25px;
+  height: 90vh;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 100px;
+  margin-bottom: 30px;
+}
+
+.main section {
+  padding: 20px 0;
+}
+
+.main section h4 {
+  font-size: 1.7rem;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.main section h5 {
+  font-size: 1.3rem;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  color: rgb(126, 120, 120);
+}
+
+.main section p {
+  color: rgb(215, 98, 69);
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main section {
+    display: flex;
+    justify-content: space-between;
+  }
+}

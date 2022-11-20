@@ -4,7 +4,7 @@ import menu from '../Assets/menu icon.png';
 import Nav from "../nav/Nav";
 import profile from '../Assets/IMG_3656.jpg';
 
-const Header = () => {
+const Header = props => {
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleDropMenu = () => {
@@ -14,7 +14,7 @@ const Header = () => {
   return <>
     <div className={showMenu ? `${classes.dropmenu} ${classes.open}` : `${classes.dropmenu} ${classes.close}`}>
       <img className={classes.profilepix} src={profile} alt="displayphoto"/>
-      <Nav />
+      <Nav id={props.id} />
     </div>
     <header className={classes.header}>
       <h1 className={classes.h1}>The Developer</h1>
