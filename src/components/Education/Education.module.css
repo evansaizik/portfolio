@@ -1,6 +1,7 @@
 .container {
+  margin-top: 80px;
   padding: 0 25px;
-  height: 90vh;
+  height: 80vh;
 }
 
 .title {

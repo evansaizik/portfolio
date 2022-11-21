@@ -1,16 +1,16 @@
-.link {
+a {
   text-decoration: none;
   display: block;
-  padding: 10px 20px;
+  padding: 14px 20px;
   font-weight: 700;
-  color: rgb(197, 188, 188);
+  color: rgb(186, 182, 182);
 }
 
-.link:hover {
+a:hover {
   color: rgb(224, 219, 219);
   /* color: black; */
 }
 
-.link:active {
+a:active {
   color: rgb(255, 255, 255);
 }

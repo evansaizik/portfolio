@@ -2,7 +2,8 @@
 
 .container {
   padding: 0 25px;
-  margin: 150px auto;
+  margin-top: 100px;
+  height: 80vh;
 }
 
 .container span, p{
@@ -50,6 +51,6 @@
 @media screen and (min-width: 992px) {
   .container {
     padding: 0 25px;
-    margin: 100px auto;
+    margin-top: 100px;
   }
 }

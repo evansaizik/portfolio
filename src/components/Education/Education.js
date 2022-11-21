@@ -1,8 +1,9 @@
 import React from "react";
 import edStyles from './Education.module.css';
 
-const Education = () => {
-  return <section id="education" className={edStyles.container}>
+const Education = props  => {
+  
+  return <section className={edStyles.container}>
     <h2 className={edStyles.title}>education</h2>
     <main className={edStyles.main}>
       <section>

@@ -4,7 +4,7 @@ import github from '../Assets/github.svg';
 import linkedin from '../Assets/linkedin.svg';
 
 const About = () => {
-  return  <main id="about" className={classes.container}>
+  return  <main className={classes.container}>
     <h1 className={classes.name}>Evans</h1>
     <span>6 Akanbi Ogundare street, unity estate, iba, ojo, Lagos. </span>
     <span>+234(0)8138836470. </span>
