@@ -1,0 +1,13 @@
+.container {
+  padding: 0 25px;
+  height: 90vh;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 100px;
+  margin-bottom: 30px;
+}

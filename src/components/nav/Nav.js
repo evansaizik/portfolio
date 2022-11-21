@@ -3,7 +3,7 @@ import nav from './Nav.module.css';
 
 const Nav = props => {
   const getId = (event) => {
-    props.id = event.target.id;
+    props.pageHandler(event.target.id);
   };
 
   return <div onClick={getId}>

@@ -2,7 +2,7 @@ import React from "react";
 import edStyles from './Education.module.css';
 
 const Education = () => {
-  return <section className={edStyles.container}>
+  return <section id="education" className={edStyles.container}>
     <h2 className={edStyles.title}>education</h2>
     <main className={edStyles.main}>
       <section>
