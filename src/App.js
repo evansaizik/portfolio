@@ -14,7 +14,7 @@ function App() {
     if (id === 'about') window.scrollTo({ top: 0, left: 0, behavior: 'smooth'});
     
     if (id === 'education')
-    window.scrollTo({ top: 1000, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 500, left: 0, behavior: 'smooth'});
 
     if (id === 'skills')
     window.scrollTo({ top: 2000, left: 0, behavior: 'smooth'});
