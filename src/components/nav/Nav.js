@@ -5,7 +5,7 @@ import nav from './Nav.module.css';
 const Nav = props => {
 
   return <div className={nav.a} >
-    <NavLink to='/about'>ABOUT</NavLink>
+    <NavLink to='/'>ABOUT</NavLink>
     <NavLink to='/education'>EDUCATION</NavLink>
     <NavLink to='/skills'>SKILLS</NavLink>
     <NavLink to='/experience'>EXPERIENCE</NavLink>
