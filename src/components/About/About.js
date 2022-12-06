@@ -3,8 +3,10 @@ import classes from './About.module.css';
 import github from '../Assets/github.svg';
 import linkedin from '../Assets/linkedin.svg';
 
-const About = () => {
-  return  <main className={classes.container}>
+const About = React.forwardRef((props, ref) => {
+  return  <main ref={ref} className={classes.container}>
+    <div className={classes.offset}>about</div>
+
     <h1 className={classes.name}>Evans</h1>
     <span>6 Akanbi Ogundare street, unity estate, iba, ojo, Lagos. </span>
     <span>+234(0)8138836470. </span>
@@ -16,6 +18,6 @@ const About = () => {
       <img src={linkedin} alt="linkedin link" />
     </section>
   </main>
-};
+});
 
 export default About;

@@ -1,15 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import nav from './Nav.module.css';
 
 const Nav = props => {
+  const getId = event => props.onConfirm(event.target.id);
 
-  return <div className={nav.a} >
-    <NavLink to='/'>ABOUT</NavLink>
-    <NavLink to='/education'>EDUCATION</NavLink>
-    <NavLink to='/skills'>SKILLS</NavLink>
-    <NavLink to='/experience'>EXPERIENCE</NavLink>
-    <NavLink to='/projects'>PROJECTS</NavLink>
+  return <div className={nav.a}>
+    <p className={nav.a} onClick={getId} id='about'>ABOUT</p>
+    <p className={nav.a} onClick={getId} id='education'>EDUCATION</p>
+    <p className={nav.a} onClick={getId} id='skills'>SKILLS</p>
+    <p className={nav.a} onClick={getId} id='experience'>EXPERIENCE</p>
+    <p className={nav.a} onClick={getId} id='projects'>PROJECTS</p>
   </div>
 };
 

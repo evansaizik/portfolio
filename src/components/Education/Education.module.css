@@ -1,7 +1,12 @@
 .container {
-  margin-top: 80px;
+  margin: 80px 0;
   padding: 0 25px;
-  height: 80vh;
+  height: 100vh;
+}
+
+.offset {
+  margin: 50px 0;
+  visibility: hidden;
 }
 
 .title {
@@ -44,5 +49,10 @@
   .main section {
     display: flex;
     justify-content: space-between;
+  }
+  
+  .offset {
+    margin-bottom: 70px;
+    visibility: hidden;
   }
 }

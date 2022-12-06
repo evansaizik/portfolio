@@ -24,7 +24,7 @@ const Header = props => {
     {showBackDrop && ReactDOM.createPortal(<Backdrop onClick={backdropHandler} />, document.getElementById('backdrop'))}
     <div className={showMenu ? `${classes.dropmenu} ${classes.open}` : `${classes.dropmenu} ${classes.close}`}>
       <img className={classes.profilepix} src={profile} alt="displayphoto"/>
-      <Nav pageHandler={props.pageHandler} />
+      <Nav onConfirm={props.onConfirm} />
     </div>
     <header className={classes.header}>
       <h1 className={classes.h1}>The Developer</h1>

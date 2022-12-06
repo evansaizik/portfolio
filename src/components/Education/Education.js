@@ -1,9 +1,10 @@
 import React from "react";
 import edStyles from './Education.module.css';
 
-const Education = props  => {
+const Education = React.forwardRef((props,ref)  => {
   
-  return <section className={edStyles.container}>
+  return <section ref={ref} className={edStyles.container}>
+    <div className={edStyles.offset}>education</div>
     <h2 className={edStyles.title}>education</h2>
     <main className={edStyles.main}>
       <section>
@@ -22,6 +23,6 @@ const Education = props  => {
       </section>
     </main>
   </section>
-};
+});
 
 export default Education;

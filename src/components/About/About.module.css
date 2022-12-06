@@ -2,8 +2,11 @@
 
 .container {
   padding: 0 25px;
-  margin-top: 100px;
-  height: 80vh;
+}
+
+.offset {
+  margin-bottom: 80px;
+  visibility: hidden;
 }
 
 .container span, p{
@@ -51,6 +54,9 @@
 @media screen and (min-width: 992px) {
   .container {
     padding: 0 25px;
-    margin-top: 100px;
+    /* margin-top: 80px; */
+  }
+  .offset {
+    margin-bottom: 120px;
   }
 }

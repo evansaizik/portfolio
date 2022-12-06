@@ -7,8 +7,9 @@ import react from '../Assets/react.svg';
 import redux from '../Assets/redux.svg';
 import npm from '../Assets/npm.svg';
 
-const Skills = () => {
-  return <div className={skillslayout.container}>
+const Skills = React.forwardRef((props, ref) => {
+  
+  return <div ref={ref} className={skillslayout.container}>
     <h2 className={skillslayout.title}>skills</h2>
     <h4>programming languages & tools</h4>
     <div className={skillslayout.skill}>
@@ -27,6 +28,6 @@ const Skills = () => {
       <li>Agile Development & Scrum</li>
     </ul>
   </div>
-};
+});
 
 export default Skills;
