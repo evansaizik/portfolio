@@ -16,10 +16,10 @@ const Education = React.forwardRef((props,ref)  => {
       </section>
       <section>
         <div>
-          <h4>ElectroHive research institute of technology</h4>
+          <h4>Dufuna Technologies Limited</h4>
           <h5>frontend web development</h5>
         </div>
-        <p>March 2020 - October 2020</p>
+        <p>March 2022 - October 2022</p>
       </section>
     </main>
   </section>
