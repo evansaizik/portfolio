@@ -10,6 +10,7 @@ import npm from '../Assets/npm.svg';
 const Skills = React.forwardRef((props, ref) => {
   
   return <div ref={ref} className={skillslayout.container}>
+    <p className={skillslayout.offset}>skill</p>
     <h2 className={skillslayout.title}>skills</h2>
     <h4>programming languages & tools</h4>
     <div className={skillslayout.skill}>
