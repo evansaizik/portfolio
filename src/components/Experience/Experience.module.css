@@ -2,11 +2,16 @@
   margin-top: 80px;
   padding: 0 25px;
   height: 100vh;
+  /* background-color: aqua; */
 }
 
 .offset {
   margin: 50px 0;
   visibility: hidden;
+}
+
+.main .item p {
+  color: rgb(126, 120, 120);
 }
 
 .title {
@@ -16,4 +21,26 @@
   font-weight: 600;
   line-height: 100px;
   margin-bottom: 30px;
+}
+
+.main section {
+  padding: 20px 0;
+}
+
+.main section h4 {
+  font-size: 1.7rem;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.main section h5 {
+  font-size: 1.3rem;
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  color: rgb(126, 120, 120);
+}
+
+.main section p {
+  color: rgb(215, 98, 69);
 }
