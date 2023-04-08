@@ -1,11 +1,13 @@
 import React from "react";
 import skillslayout from './Skills.module.css';
 import markup from '../Assets/html5.svg';
-import css from '../Assets/css.svg';
+import nodejs from '../Assets/node.svg';
 import js from '../Assets/js.svg';
 import react from '../Assets/react.svg';
 import redux from '../Assets/redux.svg';
 import npm from '../Assets/npm.svg';
+import docker from '../Assets/docker.svg';
+import nextjs from '../Assets/nextjs.svg';
 
 const Skills = React.forwardRef((props, ref) => {
   
@@ -15,11 +17,13 @@ const Skills = React.forwardRef((props, ref) => {
     <h4>programming languages & tools</h4>
     <div className={skillslayout.skill}>
       <img className={skillslayout.skillset} src={markup} alt='skills' />
-      <img className={skillslayout.skillset} src={css} alt='skills' />
+      <img className={skillslayout.skillset} src={nodejs} alt='skills' />
       <img className={skillslayout.skillset} src={js} alt='skills' />
       <img className={skillslayout.skillset} src={react} alt='skills' />
       <img className={skillslayout.skillset} src={redux} alt='skills' />
       <img className={skillslayout.skillset} src={npm} alt='skills' />
+      <img className={skillslayout.skillset} src={docker} alt='skills' />
+      <img className={skillslayout.skillset} src={nextjs} alt='skills' />
     </div>
     <h4 className={skillslayout.work}>workflow</h4>
     <ul>
